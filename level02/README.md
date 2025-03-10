@@ -20,6 +20,6 @@ Unscroll Data section on the main window of Wireshark to see hex code of charact
 
 The hex code of the char ```.``` is ```7F```, corresponding to the ```DEL``` char. It mean the user just delete char.
 
-So password is ```ft_waNDReL0L=```
+So password is ```ft_waNDReL0L```
 
 It work !
