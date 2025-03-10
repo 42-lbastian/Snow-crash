@@ -14,7 +14,7 @@ One line is important:
 /usr/bin/env echo Exploit me
 ```
 
-It use wcho to print something but it's not an absolute link to the command. We can add our echo file location to the ```$PATH``` variable.
+It use echo to print something but it's not an absolute link to the command. We can add our echo file location to the ```$PATH``` variable.
 It's evaluated from left to right, so we can put it first.
 
 Creation of our echo file:
