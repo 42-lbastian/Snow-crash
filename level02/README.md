@@ -18,7 +18,7 @@ The password ft_wandr...NDRel.L0L isn't working.
 
 Unscroll Data section on the main window of Wireshark to see hex code of character
 
-The hex code of the char . is 7F, the DEL char. It mean the user just delete char.
+The hex code of the char ```.``` is ```7F```, corresponding to the ```DEL``` char. It mean the user just delete char.
 
 So password is ```ft_waNDReL0L=```
 
