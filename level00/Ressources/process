@@ -1,0 +1,11 @@
+man find: get -user option to find file owned by user
+$> find / -user flag00 2>/dev/null
+get file /usr/sbin/john
+
+$>cat /usr/sbin/john
+cdiiddwpgswtgt
+
+code caesar
+find decode caesar site with google: https://www.dcode.fr/caesar-cipher
+result: nottoohardhere
+

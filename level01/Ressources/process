@@ -1,0 +1,15 @@
+$> cat /etc/passwd
+
+we can find this line:
+...
+flag01:42hDRfypTqqnw:3001:3001::/home/flag/flag01:/bin/bash
+...
+
+try su flag01 with 42hDRfypTqqnw, not word
+guess 42hDRfypTqqnw is a encrypted password
+
+install john 
+
+john 42hDRfypTqqnw
+
+get password of flag01 abcdefg
