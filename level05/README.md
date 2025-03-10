@@ -6,7 +6,7 @@ find / -user flag05 2> /dev/null
 
 We have ```/usr/sbin/openarenaserver```
 
-```bash
+```shell
 #!/bin/sh
 
 for i in /opt/openarenaserver/* ; do
